@@ -70,8 +70,20 @@
                 </div>
             </div>
 
-            <div class="cards-grid">
+            <div class="favorites-panel">
+                <div class="favorites-header">
+                    <span class="favorites-title">Избранные проекты</span>
+                    <span class="favorites-count">Выбрано: 3</span>
+                    <a href="#" class="favorites-clear">Очистить выбор</a>
+                </div>
+                <div class="favorites-tags">
+                    <span class="tag">Help Desk</span>
+                    <span class="tag">EcoMonitor</span>
+                    <span class="tag">CityRoutes</span>
+                </div>
+            </div>
 
+            <div class="cards-grid">
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/help-desk.svg" alt="Иллюстрация проекта Help Desk">
                     <div class="project-body">
@@ -83,7 +95,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/task-flow.svg" alt="Иллюстрация проекта TaskFlow">
                     <div class="project-body">
@@ -95,7 +106,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/eco-monitor.svg" alt="Иллюстрация проекта EcoMonitor">
                     <div class="project-body">
@@ -107,7 +117,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/book-space.svg" alt="Иллюстрация проекта BookSpace">
                     <div class="project-body">
@@ -119,7 +128,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/fin-track.svg" alt="Иллюстрация проекта FinTrack">
                     <div class="project-body">
@@ -131,7 +139,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/event-hub.svg" alt="Иллюстрация проекта EventHub">
                     <div class="project-body">
@@ -143,7 +150,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/study-notes.svg" alt="Иллюстрация проекта StudyNotes">
                     <div class="project-body">
@@ -155,7 +161,6 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <img class="project-cover" src="assets/images/city-routes.svg" alt="Иллюстрация проекта CityRoutes">
                     <div class="project-body">
@@ -167,14 +172,64 @@
                         <a class="card-link" href="#project-info">Подробнее <span aria-hidden="true">↗</span></a>
                     </div>
                 </article>
-
             </div>
+
             <div class="pagination">
                 <span>Показано 8 из 8 проектов</span>
                 <button type="button">Все проекты <span aria-hidden="true">→</span></button>
             </div>
         </section>
     </div>
+
+    <section class="comparison-section" id="comparison">
+        <div class="section-heading" style="border-bottom: none; margin-bottom: 24px; padding-bottom: 0;">
+            <div>
+                <span class="eyebrow">РАЗДЕЛ 03 / СРАВНЕНИЕ</span>
+                <h2>Сравнение проектов</h2>
+            </div>
+        </div>
+
+        <div class="comparison-grid">
+            <article class="comparison-card">
+                <div class="comp-body">
+                    <span class="badge">Веб-приложение</span>
+                    <h3 class="comp-title">Help Desk</h3>
+                    <div class="comp-details">
+                        <p><strong>Сложность:</strong> Средняя</p>
+                        <p><strong>Стек:</strong> Java, Spring Boot, PostgreSQL</p>
+                        <p><strong>Срок:</strong> 5 недель</p>
+                    </div>
+                </div>
+                <a class="card-link" href="#project-info">Открыть проект <span aria-hidden="true">↗</span></a>
+            </article>
+
+            <article class="comparison-card">
+                <div class="comp-body">
+                    <span class="badge">Аналитика</span>
+                    <h3 class="comp-title">EcoMonitor</h3>
+                    <div class="comp-details">
+                        <p><strong>Сложность:</strong> Высокая</p>
+                        <p><strong>Стек:</strong> JavaScript, API, Charts</p>
+                        <p><strong>Срок:</strong> 7 недель</p>
+                    </div>
+                </div>
+                <a class="card-link" href="#project-info">Открыть проект <span aria-hidden="true">↗</span></a>
+            </article>
+
+            <article class="comparison-card">
+                <div class="comp-body">
+                    <span class="badge">Интерфейс</span>
+                    <h3 class="comp-title">CityRoutes</h3>
+                    <div class="comp-details">
+                        <p><strong>Сложность:</strong> Средняя</p>
+                        <p><strong>Стек:</strong> HTML, CSS, JavaScript</p>
+                        <p><strong>Срок:</strong> 4 недели</p>
+                    </div>
+                </div>
+                <a class="card-link" href="#project-info">Открыть проект <span aria-hidden="true">↗</span></a>
+            </article>
+        </div>
+    </section>
 
     <section class="feature" id="project-info">
         <div class="feature_inner">
